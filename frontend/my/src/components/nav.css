@@ -1,0 +1,18 @@
+.btns{
+    display: flex;
+    color:whitesmoke;
+    justify-content: space-around;
+    
+}
+.btns :hover{
+    background-color: white;
+}
+  
+Link{
+    color: rgba(255, 255, 255, 0.994);
+    
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "pfe",
+  "version": "1.0.0",
+  "description": "projet fin d'etude",
+  "main": "server.js",
+
+  "scripts": {
+    "start": "node server",
+    "back": "nodemon server ",
+    "front": "cd frontend/my && npm start",
+    "dev": "concurrently \"npm run back\" \"npm run front\"",
+    "data:import":"node seeder",
+    "data:destroy":"node seeder -d"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.1",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.4.0",
+    "config": "^3.3.6",
+    "consola": "^2.15.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "gravatar": "^1.8.2",
+    "import-path": "^1.0.15",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "multer": "^1.4.4",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "react-bootstrap": "^2.0.3",
+    "react-redux": "^7.2.6",
+    "react-router-bootstrap": "^0.26.0",
+    "react-router-dom": "^6.0.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0",
+    "request": "^2.88.2"
+  }
+}
